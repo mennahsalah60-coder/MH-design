@@ -1,0 +1,33 @@
+.mh-form{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    gap: var(--mh-space-3);
+    max-width: 500px;
+    margin-inline: auto;
+    margin-bottom: 100px;
+}
+
+.form-group{
+    display: flex;
+    flex-direction: column;
+    gap: var(--mh-space-1);
+}
+
+.mh-label{
+    font-weight: var(--mh-font-weight-regular);
+    color: var(--mh-dark);
+}
+
+.mh-input{
+    padding: var(--mh-space-2);
+    border: 2px solid var(--mh-dark);
+    transition: border-color var(--mh-transition-fast);
+                box-shadow: var(--mh-transition-fast);
+}
+
+.mh-input:focus{
+    outline: none;
+    border-color: var(--mh-info);
+    box-shadow: 0px 0px 3px rgba(0, 0, 0, .1);
+}

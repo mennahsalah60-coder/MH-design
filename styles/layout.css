@@ -1,0 +1,37 @@
+/* (((((((((((( Countainer )))))))))))) */
+.mh-countainer{
+    width: 100%;
+    margin-inline: auto;
+    padding: 0px var(--mh-space-5);
+}
+
+@media screen and (min-width: 567px) {
+    .mh-countainer{
+        max-width: 540px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .mh-countainer{
+        max-width: 760px;
+    }
+}
+
+@media screen and (min-width: 992px) {
+    .mh-countainer{
+        max-width: 990px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .mh-countainer{
+        max-width:1140px;
+    }
+}
+
+
+@media screen and (min-width: 1400px) {
+    .mh-countainer{
+        max-width:1380px;
+    }
+}

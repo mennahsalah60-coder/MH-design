@@ -1,0 +1,45 @@
+/* colors - fonts - border - spacing */
+
+:root {
+    /* colors */
+    --mh-primary: #6d28d9;
+    --mh-dark: #252525;
+    --mh-light: #f8f9fa;
+    --mh-white: #ffffff;
+    --mh-info: #3b82f6;
+
+    /* Typography */
+    --mh-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    --mh-font-size-xs: 12px;
+    --mh-font-size-ms: 14px;
+    --mh-font-size-md: 16px;
+    --mh-font-size-lg: 20px;
+    --mh-font-size-xl: 28px;
+
+    --mh-font-weight-light: 300;
+    --mh-font-weight-regular: 400;
+    --mh-font-weight-bold: 700;
+
+    /* spacinig */
+    --mh-space-1: 4px;
+    --mh-space-2: 8px;
+    --mh-space-3: 16px;
+    --mh-space-4: 24px;
+    --mh-space-5: 32px;
+    --mh-space-6: 48px;
+
+    /* Border Radius */
+    --mh-radius-circle: 50%;
+    --mh-radius-pill: 50px;
+    --mh-radius-4: 16px;
+    --mh-radius-3: 10px;
+
+    /* Shadow */
+    --mh-shadow-sm: 0px 2px 8px rgba(0, 0, 0, 0.05);
+    --mh-shadow-md: 0px 4px 15px rgba(0, 0, 0, 0.08);
+    --mh-shadow-lg: 0px 10px 25px rgba(0, 0, 0, 0.12);
+
+    /* Transition */
+    --mh-transition-fast: 0.2s ease-in-out;
+    --mh-transition-normal: 0.2s ease-in-out;
+}

@@ -1,0 +1,99 @@
+.mh-cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: var(--mh-space-3);
+    gap: var(--mh-space-2);
+
+    .mh-card {
+        background-color: var(--mh-light);
+        color: var(--mh-dark);
+        border: 1px solid gray;
+        padding: var(--mh-space-3);
+        border-radius: var(--mh-radius-3);
+        transition: transform var(--mh-transition-fast),
+            box-shadow var(--mh-transition-fast),
+    }
+
+    .mh-card:hover {
+        transform: translateY(-5px);
+        box-shadow: 0 10px 20px rgba(0, 0, 0, 0.08);
+    }
+
+    .card-image {
+        border-radius: var(--mh-radius-3);
+    }
+
+    .card-text {
+        margin: 10px;
+    }
+
+    .card-title {
+        font-size: var(--mh-font-size-lg);
+        margin-bottom: var(--mh-space-2);
+    }
+
+    .card-discription {
+        font-size: var(--mh-font-size-sm);
+        margin-bottom: var(--mh-space-3);
+    }
+
+    .btn-card {
+        display: inline-block;
+        padding: var(--mh-space-2);
+        font-family: var(--mh-font-family);
+        font-weight: var(--mh-font-weight-bold);
+        text-align: center;
+        cursor: pointer;
+        background-color: var(--mh-light);
+        color: var(--mh-dark);
+        border: 2px solid var(--mh-dark);
+        width: auto;
+        border-radius: var(--mh-radius-3);
+        transition: background-color var(--mh-transition-fast),
+            transform var(--mh-transition-fast),
+            color var(--mh-transition-fast)
+    }
+
+    .btn-card:hover {
+        background-color: var(--mh-dark);
+        color: var(--mh-light);
+        transform: scale(1.05);
+
+    }
+
+    .btn-card:active {
+        transform: scale(0.95);
+    }
+}
+
+
+@media screen and (min-width: 320px) {
+    .mh-cards{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+
+@media screen and (min-width: 768px) {
+    .mh-cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+
+@media screen and (min-width: 1024px) {
+    .mh-cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}
+
+
+@media screen and (min-width: 1440px) {
+    .mh-cards{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}

@@ -1,0 +1,27 @@
+.mh-btn{
+    display: inline-block;
+    padding: var(--mh-space-2);
+    font-family: var(--mh-font-family);
+    font-weight: var(--mh-font-weight-bold);
+    text-align: center;
+    cursor: pointer;
+    background-color: var(--mh-light);
+    color: var(--mh-dark);
+    border: 2px solid var(--mh-dark);
+    width: auto;
+    border-radius: var(--mh-radius-3);
+    transition: background-color var(--mh-transition-fast),
+                transform var(--mh-transition-fast),
+                color var(--mh-transition-fast)
+}
+
+.mh-btn:hover{
+    background-color: var(--mh-dark);
+    color: var(--mh-light);
+    transform: scale(1.05);
+
+}
+
+.mh-btn:active{
+    transform: scale(0.95);
+}
